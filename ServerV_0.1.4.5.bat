@@ -28,12 +28,12 @@ echo Welcome to the simple server Hosting interface! This is the software interf
 echo.
 echo To access; As of 0.1.4.5, the form of access is: http://%ipv4_address%:8000 [auto set] within a browser.
 echo All files and access is contained within the C:\Server directory.
-echo.
-echo For more infomation, releases or questions contact millen.jones@student.education.wa.edu.au 
+echo 
 echo.
 echo Currently only operational on same-network access. No r/w capabilities.
 echo User Directory currently: %Username%
 echo Server Directory currently: %serverdir%
 echo ---------------------------------------------------------------------------------
 python -m http.server 8000
+
 pause
